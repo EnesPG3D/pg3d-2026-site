@@ -1,163 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Pixel Gun 3D - Ultimate Fan Site</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #1e1e2f, #2c2c54);
-            color: white;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PG3D Ultimate 2026 | Enes Edition</title>
 
-        header {
-            text-align: center;
-            padding: 40px;
-            background: #111;
-        }
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#0f0f1a;
+color:white;
+}
 
-        h1 {
-            font-size: 40px;
-            margin: 0;
-            color: #00ffcc;
-        }
+header{
+background:linear-gradient(90deg,#ff00cc,#00ffff);
+padding:30px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
 
-        nav {
-            text-align: center;
-            background: #222;
-            padding: 15px;
-        }
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+background:#111;
+padding:10px;
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
+nav button{
+margin:5px;
+padding:10px 15px;
+border:none;
+border-radius:8px;
+background:#222;
+color:white;
+cursor:pointer;
+}
 
-        nav a:hover {
-            color: #00ffcc;
-        }
+nav button:hover{
+background:#ff00cc;
+}
 
-        section {
-            padding: 40px;
-            max-width: 900px;
-            margin: auto;
-        }
+section{
+display:none;
+padding:20px;
+max-width:1000px;
+margin:auto;
+}
 
-        .card {
-            background: #2e2e3f;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-        }
+.active{
+display:block;
+}
 
-        button {
-            background: #00ffcc;
-            border: none;
-            padding: 15px 25px;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-        }
+.card{
+background:#1a1a2e;
+padding:15px;
+margin:10px 0;
+border-radius:12px;
+}
 
-        button:hover {
-            background: #00ccaa;
-        }
+select, input{
+padding:8px;
+margin:5px;
+border-radius:6px;
+border:none;
+}
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #111;
-            margin-top: 40px;
-        }
-    </style>
+button.action{
+background:#00ffff;
+color:black;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+margin-top:20px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <h1>Pixel Gun 3D - Ultimate Fan Website</h1>
-    <p>The Complete Guide to PG3D</p>
+🔥 PG3D ULTIMATE 2026 | ENES PRO VERSION 🔥
 </header>
 
 <nav>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#weapons">Weapons</a>
-    <a href="#modes">Game Modes</a>
-    <a href="#download">Download</a>
+<button onclick="show('home')">Home</button>
+<button onclick="show('meta')">2026 Meta</button>
+<button onclick="show('tier')">Tier List</button>
+<button onclick="show('builder')">Loadout Builder</button>
+<button onclick="show('clan')">Clan</button>
+<button onclick="show('ai')">PG3D AI</button>
 </nav>
 
-<section id="about">
-    <h2>About Pixel Gun 3D</h2>
-    <div class="card">
-        <p>Pixel Gun 3D (PG3D) is a multiplayer first-person shooter game with pixel-style graphics. 
-        Players can fight in online battles, complete campaigns, join clans, and unlock powerful weapons.</p>
-        <p>The game combines Minecraft-style visuals with intense FPS combat.</p>
-    </div>
+<section id="home" class="active">
+<h2>Welcome</h2>
+<div class="card">
+Ultimate Pixel Gun 3D 2026 Guide Website.
+Created by Enes.
+Updated Meta + Smart Tools.
+</div>
 </section>
 
-<section id="features">
-    <h2>Main Features</h2>
-    <div class="card">
-        <ul>
-            <li>Online Multiplayer Battles</li>
-            <li>Over 1000+ Weapons</li>
-            <li>Battle Royale Mode</li>
-            <li>Clan System</li>
-            <li>Custom Skins & Characters</li>
-            <li>Campaign Mode</li>
-            <li>Events & Tournaments</li>
-        </ul>
-    </div>
+<section id="meta">
+<h2>🔥 2026 Current Meta</h2>
+<div class="card">✔ 3Cat Spam still strong</div>
+<div class="card">✔ High mobility builds dominate</div>
+<div class="card">✔ Area damage sniper meta</div>
+<div class="card">✔ Rocket Jump heavy useful in duels</div>
 </section>
 
-<section id="weapons">
-    <h2>Weapon Categories</h2>
-    <div class="card">
-        <ul>
-            <li>Primary Weapons (Rifles, Shotguns)</li>
-            <li>Backup Weapons (Pistols)</li>
-            <li>Melee Weapons (Swords, Knives)</li>
-            <li>Special Weapons (Flamethrowers)</li>
-            <li>Sniper Weapons</li>
-            <li>Heavy Weapons (Rocket Launchers)</li>
-        </ul>
-    </div>
+<section id="tier">
+<h2>🏆 2026 Weapon Tier List</h2>
+<div class="card">
+S Tier: High damage snipers, mobility heavies
+</div>
+<div class="card">
+A Tier: Fast fire primary + backup combo
+</div>
+<div class="card">
+B Tier: Balanced automatic weapons
+</div>
 </section>
 
-<section id="modes">
-    <h2>Game Modes</h2>
-    <div class="card">
-        <ul>
-            <li>Team Fight</li>
-            <li>Deathmatch</li>
-            <li>Battle Royale</li>
-            <li>Capture the Flag</li>
-            <li>Duel</li>
-            <li>Clan Raid</li>
-        </ul>
-    </div>
+<section id="builder">
+<h2>⚙ Loadout Builder</h2>
+
+<select id="primary">
+<option>Automatic Rifle</option>
+<option>Shotgun</option>
+</select>
+
+<select id="backup">
+<option>Revolver</option>
+<option>Fast Pistol</option>
+</select>
+
+<select id="sniper">
+<option>One Shot Sniper</option>
+<option>Area Damage Sniper</option>
+</select>
+
+<select id="heavy">
+<option>Rocket Launcher</option>
+<option>Mobility Heavy</option>
+</select>
+
+<br>
+<button class="action" onclick="generateLoadout()">Generate</button>
+
+<div id="result" class="card"></div>
 </section>
 
-<section id="download">
-    <h2>Download Pixel Gun 3D</h2>
-    <div class="card" style="text-align:center;">
-        <p>Download and start playing now!</p>
-        <button onclick="alert('Redirecting to official store...')">
-            Download Now
-        </button>
-    </div>
+<section id="clan">
+<h2>👑 Clan Section</h2>
+<div class="card">
+Clan Name: EnesYT Elite
+<br>
+Focus: Competitive 3Cat + Clan Wars
+</div>
+</section>
+
+<section id="ai">
+<h2>🤖 PG3D Smart AI Assistant</h2>
+
+<input type="text" id="question" placeholder="Ask anything about PG3D 2026...">
+<button class="action" onclick="askAI()">Ask</button>
+
+<div id="aiAnswer" class="card"></div>
 </section>
 
 <footer>
-    <p>© 2026 Pixel Gun 3D Fan Website | Not affiliated with official developers</p>
+© 2026 PG3D Ultimate | Fan Made | Enes Edition
 </footer>
 
+<script>
+
+function show(id){
+document.querySelectorAll("section").forEach(s=>s.classList.remove("active"));
+document.getElementById(id).classList.add("active");
+}
+
+function generateLoadout(){
+let p=document.getElementById("primary").value;
+let b=document.getElementById("backup").value;
+let s=document.getElementById("sniper").value;
+let h=document.getElementById("heavy").value;
+
+document.getElementById("result").innerHTML=
+"Recommended Build:<br>"+p+" + "+b+" + "+s+" + "+h+"<br>Balanced for 2026 Meta.";
+}
+
+function askAI(){
+let q=document.getElementById("question").value.toLowerCase();
+let answer="Meta tip: Use mobility and fast swap combos.";
+
+if(q.includes("3cat")) answer="3Cat in 2026: Use fast sniper + high damage backup.";
+if(q.includes("best")) answer="Best strategy: Balance mobility + burst damage.";
+if(q.includes("armor")) answer="Ultimate Armor still top tier in 2026.";
+
+document.getElementById("aiAnswer").innerHTML=answer;
+}
+
+</script>
+
 </body>
-  </html>
+    </html>
